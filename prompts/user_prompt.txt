@@ -1,0 +1,30 @@
+### Gabarito
+Palavra: {suporte}
+
+### Tarefa
+Gere quatro listas distintas de distratores,
+cada uma contendo 20 palavras ordenadas da mais próxima a menos próxima foneticamente e graficamente do gabarito:
+
+1. same_len_canon  
+   - Mesmo número de sílabas do gabarito  
+   - Estrutura CV  
+
+2. diff_len_canon  
+   - Número de sílabas diferente (+-1)  
+   - Estrutura CV  
+
+3. same_len_diff_pattern  
+   - Mesmo número de sílabas  
+   - Estrutura não-CV  
+
+4. diff_len_diff_pattern  
+   - Número de sílabas diferente (+-1)  
+   - Estrutura não-CV  
+
+### Formato de saída (obrigatório):
+{{
+  "same_len_canon": [],
+  "diff_len_canon": [],
+  "same_len_diff_pattern": [],
+  "diff_len_diff_pattern": []
+}}
